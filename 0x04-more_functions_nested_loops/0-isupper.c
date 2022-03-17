@@ -3,8 +3,8 @@
 
 /**
 * _isupper - function that check in uppercase variable entry
-* @c: es la variable de entrada
-* Return: 1 si es Mayus
+* @c: the variable entered
+* Return: 1 if successful
 */
 int _isupper(int c)
 {
