@@ -1,8 +1,8 @@
 #include "lists.h"
-
+#include <stdlib.h>
 /**
- * free_listint_safe - mas listas enlazadas
- * @h: Doble puntero asignado
+ * free_listint_safe - frees lists with a loop
+ * @h: Double pointer assigned
  * Return: i
  */
 size_t free_listint_safe(listint_t **h)
